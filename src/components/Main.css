@@ -1,0 +1,31 @@
+.image-container {
+    display: flex;
+    justify-content: center; 
+}
+
+.image-container > img {
+    width: 300px;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-left: 4px; 
+    margin-right: 4px; 
+}
+
+/* To remove the left margin from the first image */
+.image-container > img:first-child {
+    margin-left: 0;
+}
+
+/* To remove the right margin from the last image */
+.image-container > img:last-child {
+    margin-right: 0;
+}
+
+.text{
+    margin-left: 310px;
+    margin-top: 8px;
+    font-size: large;
+}
+.text > h1{
+    font-size: 35px;
+}
